@@ -1,7 +1,7 @@
 import encapsulation.Book;
 import inheritance.Student;
 
-class main {
+class Main {
     public static void main(String[] args) {
         Book Book1 = new Book("Java programing","James Gosling",35000);
         Book Book2 = new Book("clean code", "Robert Martin", 45000);
@@ -18,4 +18,3 @@ class main {
         student1.study();
     }
 }
-
