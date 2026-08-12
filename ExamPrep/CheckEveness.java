@@ -16,6 +16,7 @@ public class CheckEveness {
         }else{
             System.out.println(input + " the number is odd");
         }
+        sc.close();
 }
     
 }
