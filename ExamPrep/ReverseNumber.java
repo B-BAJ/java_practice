@@ -6,11 +6,15 @@ public class ReverseNumber {
 
         System.out.println("please enter number to be reversed");
         int number = sc.nextInt();
+        sc.close();
         int reverse = 0;
 
         while( number !=0 ){
             int digit = number % 10;
             reverse = reverse * 10 + digit;
+            System.out.println("the reversed number is " + reverse);
+            number = number / 10 ;
+
         }
 
         System.out.println("the reversed number is " + reverse);
